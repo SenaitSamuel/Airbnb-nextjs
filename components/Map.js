@@ -35,7 +35,7 @@ function Map({ searchResults }) {
             offsetTop={-10}
           >
             <p onClick={() => setSelectedLocation(result)}>
-              <LocationMarkerIcon className="h-5 text-red-400 cursor-pointer animate-bounce " />
+              <LocationMarkerIcon className="h-5 text-red-400 cursor-pointer animate-bounce" />
             </p>
           </Marker>
           {selectedLocation.long === result.long ? (
